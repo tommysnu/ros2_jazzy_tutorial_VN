@@ -1,4 +1,4 @@
-```
+
 Đoạn văn bản này hướng dẫn cách sử dụng các công cụ dòng lệnh `ros2 topic` và `ros2 interface` để kiểm tra các topic trong ROS 2. Các lệnh và chức năng chính được đề cập bao gồm:
 
 * **`ros2 topic list`**: Liệt kê tất cả các topic đang hoạt động. Các topic mặc định như `/parameter_events` và `/rosout` có thể xuất hiện khi có node đang chạy. Topic chỉ hiển thị khi có ít nhất một publisher hoặc subscriber đang hoạt động trên nó.
@@ -12,4 +12,4 @@
 * **`ros2 node info <node_name>`**: Hiển thị thông tin chi tiết về một node, bao gồm các publisher và subscriber của nó và các topic mà chúng tương tác.
 
 Tóm lại, bài học này cung cấp một cái nhìn tổng quan về các công cụ dòng lệnh mạnh mẽ trong ROS 2 để theo dõi, kiểm tra và thậm chí tương tác trực tiếp với các topic và node trong hệ thống.
-```
+
